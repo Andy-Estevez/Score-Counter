@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="Basketball"
+        android:entries="@array/sports_names"
+        android:entryValues="@array/sports_names"
+        android:key="sync_frequency"
+        android:summary="Choose a sport"
+        android:title="Sports Preference" />
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/winning_pic"
+        android:entryValues="@array/winning_pic"
+        android:key="win_pic"
+        android:summary="Choose winning picture"
+        android:title="Award preference" />
+
+    <EditTextPreference
+        android:defaultValue="0"
+        android:inputType="phone"
+        android:key="contact_number"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Contact Preference" />
+
+    <EditTextPreference
+        android:defaultValue="false"
+        android:inputType="textShortMessage"
+        android:key="favorite_team"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="What's your favorite team"
+        android:title="Favorite Sports Team" />
+
+</PreferenceScreen>

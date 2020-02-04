@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sports_names">
+        <item>Basketball</item>
+        <item>Baseball</item>
+        <item>Hockey</item>
+    </string-array>
+
+    <string-array name="winning_pic">
+        <item>Medal</item>
+        <item>Trophy</item>
+        <item>Thumbs Up</item>
+    </string-array>
+
+    <string-array name="sports_teams">
+        <item>New York Mets</item>
+        <item>Philadelphia Phillies</item>
+        <item>Washington Nationals</item>
+        <item>Miami Marlins</item>
+        <item>Atlanta Braves</item>
+    </string-array>
+</resources>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ScoreCounter Settings</string>
+    <string name="action_settings">Settings</string>
+    <string name="raptors">Raptors</string>
+    <string name="t1_increase">+</string>
+    <string name="t1_score">0</string>
+    <string name="t1_decrease">-</string>
+    <string name="warriors">Warriors</string>
+    <string name="t2_score">0</string>
+    <string name="t2_increase">+</string>
+    <string name="t2_decrease">-</string>
+    <string name="trophy">trophy</string>
+    <string name="call">Call</string>
+    <string name="send">Send</string>
+    <string name="search">Search</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="sports" >
+        <item>Basketball</item>
+        <item>Baseball</item>
+        <item>Hockey</item>
+    </string-array>
+</resources>
